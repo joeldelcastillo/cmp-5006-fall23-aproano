@@ -2,7 +2,7 @@
 
 ## Part 1: Research Topics
 
-In this section, you will research various classical cryptography topics. Each topic has a set of questions to guide your learning. Avoid repetition and ensure that the questions are slightly different for each topic.
+In this section, you will research various classical cryptography topics. Each topic has a set of questions to guide your learning.
 
 ### 1. The Shift Cipher
 
