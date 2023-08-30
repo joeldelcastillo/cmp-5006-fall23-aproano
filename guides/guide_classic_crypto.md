@@ -153,12 +153,12 @@ Write a Python function `affine_cipher_encrypt(plaintext, a, b)` that takes a pl
 > - Plaintext: "HELLO"
 > - a: 5
 > - b: 8
-> - Ciphertext: "ZGWWA"
+> - Ciphertext: "RCLLA"
 
 > - Plaintext: "WORLD"
 > - a: 3
 > - b: 7
-> - Ciphertext: "JYXGA"
+> - Ciphertext: "VXGOQ"
 
 ### 4. Hill Cipher
 
@@ -166,13 +166,9 @@ Write a Python function `affine_cipher_encrypt(plaintext, a, b)` that takes a pl
 Write a Python function `hill_cipher_encrypt(plaintext, key)` that takes a plaintext string and a 2x2 matrix key as input and returns the corresponding ciphertext using the Hill cipher.
 
 #### Example:
-> - Plaintext: "HELLO"
+> - Plaintext: "HELLOWORLD"
 > - Key: [[2, 3], [1, 4]]
-> - Ciphertext: "XZVZP"
-
-> - Plaintext: "WORLD"
-> - Key: [[5, 6], [7, 8]]
-> - Ciphertext: "ZVZVZ"
+> - Ciphertext: "AXDDQYBEFX"
 
 ### 5. Permutation Cipher
 
@@ -182,27 +178,11 @@ Write a Python function `permutation_cipher_encrypt(plaintext, key)` that takes 
 #### Example:
 > - Plaintext: "HELLO"
 > - Key: [3, 1, 4, 2, 5]
-> - Ciphertext: "LHEOL"
+> - Ciphertext: "LHLEO"
 
 > - Plaintext: "WORLD"
 > - Key: [2, 4, 1, 5, 3]
-> - Ciphertext: "OWRDL"
-
-### 6. LFSR Stream Cipher
-
-#### Exercise:
-Write a Python function `lfsr_cipher_encrypt(plaintext, seed, taps)` that takes a plaintext string, a seed value, and a list of tap positions as input and returns the corresponding ciphertext using the LFSR stream cipher.
-
-#### Example:
-> - Plaintext: "HELLO"
-> - Seed: "10101"
-> - Taps: [2, 4, 5]
-> - Ciphertext: "01110"
-
-> - Plaintext: "WORLD"
-> - Seed: "11010"
-> - Taps: [1, 3, 5]
-> - Ciphertext: "10011"
+> - Ciphertext: "OLWDR"
 
 ## Cryptanalysis Topics
 
@@ -252,18 +232,3 @@ Output:
 Hello, World!
 ```
 
-### 4. LFSR Stream Cipher
-
-Write a Python function `break_lfsr_stream_cipher(ciphertext, taps)` that takes a string `ciphertext` and a list of integers `taps` as input and attempts to break the LFSR stream cipher by performing a known-plaintext attack. The function should return the most likely plaintext obtained by decrypting the ciphertext using the correct taps.
-
-Example:
-```python
-ciphertext = "10101010101010101010"
-taps = [5, 3]
-plaintext = break_lfsr_stream_cipher(ciphertext, taps)
-print(plaintext)
-```
-Output:
-```
-Hello, World!
-```
