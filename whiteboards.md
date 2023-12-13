@@ -8,4 +8,4 @@
 
 - [Sept-20 / SPN-DES](https://estudusfqedu-my.sharepoint.com/:wb:/g/personal/aproano_asig_com_ec/EeaxGyCvw9xGpCG6J9mLIF8BmjLLB9dJkJi8-2rJY50ocQ?e=CQfKBz)
 
-- [Oct-2 / Asymmetric Crypto](https://estudusfqedu-my.sharepoint.com/:wb:/g/personal/aproano_asig_com_ec/EQeUUwxHyl5IiCRPVBjGbRsB8akzotJMc6ivH1j_eTk0oQ?e=5YaXin) 
+- [Oct-2 / Asymmetric Crypto](https://estudusfqedu-my.sharepoint.com/:wb:/g/personal/aproano_asig_com_ec/EQeUUwxHyl5IiCRPVBjGbRsB8akzotJMc6ivH1j_eTk0oQ?e=5YaXin)
